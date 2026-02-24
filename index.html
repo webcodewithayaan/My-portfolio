@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Header / Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+  <div class="container">
+    
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">Ayaan</a>
+
+    <!-- Toggle Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolioNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="portfolioNavbar">
+      <ul class="navbar-nav ms-auto align-items-center">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            Skills
+          </a>
+          <ul class="dropdown-menu custom-dropdown">
+            <li><a class="dropdown-item" href="#">HTML</a></li>
+            <li><a class="dropdown-item" href="#">CSS</a></li>
+            <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+            <li><a class="dropdown-item" href="#">JavaScript</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+
+        <!-- Button -->
+        <li class="nav-item ms-3">
+          <a href="#contact" class="btn btn-outline-info">Hire Me</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="hero-section d-flex align-items-center">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 text-white hero-content">
+                <h3 class="fade-in">Hello, It's Me</h3>
+                <h1 class="name-glow">Ayaan</h1>
+                <h3 class="static-text">And I'm a <span class="css-typing">Frontend Developer</span></h3>
+                <p class="description">Crafting digital experiences with precision and modern design.</p>
+                
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                
+                <a href="#" class="btn-cyan">Download CV</a>
+            </div>
+
+            <div class="col-lg-6 d-flex justify-content-center">
+                <div class="img-container">
+                    <div class="hexagon-glow"></div>
+                    <div class="hexagon-mask">
+                        <img src="./967b7ca3-44a6-4320-8116-ccaf593ebfc2.jpg" alt="Ayaan Portfolio">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about-section py-5" id="about">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+                <div class="about-img-container">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=600" alt="About Ayaan" class="img-fluid rounded-4 shadow-lg">
+                    <div class="experience-badge">
+                        <span>2+</span>
+                        <p>Years Exp.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7 ps-lg-5 text-white">
+                <h2 class="section-title">About <span class="cyan-text">Me</span></h2>
+                <h4 class="mb-3">I'm a Developer who loves solving problems.</h4>
+                <p class="text-secondary mb-4">
+                    I specialize in building high-performance web applications with a focus on user experience. 
+                    My journey started with a curiosity for how things work on the internet, 
+                    which evolved into a passion for clean code and modern design.
+                </p>
+
+                <div class="row g-3 mb-4">
+                    <div class="col-6 col-md-4">
+                        <div class="skill-card">
+                            <i class="fas fa-code"></i>
+                            <p>Clean Code</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="skill-card">
+                            <i class="fas fa-layer-group"></i>
+                            <p>UI Design</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="skill-card">
+                            <i class="fas fa-rocket"></i>
+                            <p>Fast Loading</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#contact" class="read-more-btn">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills-section py-5" id="skills">
+    <div class="container">
+        <h2 class="section-title text-center text-white mb-5">My <span class="cyan-text">Skills</span></h2>
+        
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="skill-container">
+                    <div class="skill-info d-flex justify-content-between text-white mb-2">
+                        <span><i class="fab fa-html5 cyan-text"></i> HTML5</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-line html-line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="skill-container">
+                    <div class="skill-info d-flex justify-content-between text-white mb-2">
+                        <span><i class="fab fa-css3-alt cyan-text"></i> CSS3</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-line css-line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="skill-container">
+                    <div class="skill-info d-flex justify-content-between text-white mb-2">
+                        <span><i class="fab fa-js cyan-text"></i> JavaScript (Modules)</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-line js-line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="skill-container">
+                    <div class="skill-info d-flex justify-content-between text-white mb-2">
+                        <span><i class="fab fa-bootstrap cyan-text"></i> Bootstrap 5</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-line bootstrap-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <section class="projects-section py-5" id="portfolio">
+    <div class="container">
+        <h2 class="section-title text-center text-white mb-5">Latest <span class="cyan-text">Projects</span></h2>
+        
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600" alt="Web Dev Project">
+                    <div class="project-overlay">
+                        <h4>E-Commerce UI</h4>
+                        <p>Built with HTML, CSS, and Bootstrap.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600" alt="Dashboard Project">
+                    <div class="project-overlay">
+                        <h4>Admin Dashboard</h4>
+                        <p>Interactive data visualization layout.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&q=80&w=600" alt="Creative Project">
+                    <div class="project-overlay">
+                        <h4>Portfolio Theme</h4>
+                        <p>Modern dark-mode aesthetic design.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<section class="projects-section py-5" id="portfolio">
+    <div class="container">
+        <h2 class="section-title text-center text-white mb-5">My Latest <span class="cyan-text">Assignments</span></h2>
+        
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card large-card">
+                    <img src="./a.jpg" alt="Gym Web">
+                    <div class="project-overlay">
+                        <h4>Gym Web</h4>
+                        <p>Professional Fitness & Gym Layout</p>
+                        <div class="btn-group">
+                            <a href="https://github.com/webcodewithayaan/Gym-Web-with-Bootsrap.git" target="_blank" class="btn-cyan-outline">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card large-card">
+                    <img src="./2.jpg" alt="Clothing Web">
+                    <div class="project-overlay">
+                        <h4>Clothing Web</h4>
+                        <p>Modern E-commerce Fashion Store</p>
+                        <div class="btn-group">
+                            <a href="https://github.com/webcodewithayaan/Clothing-Selling-Web.git" target="_blank" class="btn-cyan-outline">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="project-card large-card">
+                    <img src="./b.jpg" alt="Hotel Web">
+                    <div class="project-overlay">
+                        <h4>Hotel Web</h4>
+                        <p>Luxury Hotel Booking UI</p>
+                        <div class="btn-group">
+                            <a href="https://github.com/webcodewithayaan/Hotel-Web.git" target="_blank" class="btn-cyan-outline">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="https://github.com/webcodewithayaan" target="_blank" class="github-profile-link">
+                <i class="fab fa-github"></i> Visit My Full GitHub Profile
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section class="contact-section py-5" id="contact">
+    <div class="container">
+        <h2 class="section-title text-center text-white mb-5">Contact <span class="cyan-text">Me</span></h2>
+        
+        <div class="row g-5">
+            <div class="col-lg-5 text-white">
+                <div class="contact-info-card">
+                    <img src="./06a466be-3eac-4706-82ac-ad4ef299a9aa.jpg" alt="Contact Us" class="img-fluid rounded-4 mb-4">
+                    
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-phone-alt cyan-text me-3 fs-4"></i>
+                        <div>
+                            <p class="mb-0 text-secondary">Phone Number</p>
+                            <h5 class="fw-bold">0336-3095399</h5>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-envelope cyan-text me-3 fs-4"></i>
+                        <div>
+                            <p class="mb-0 text-secondary">Email</p>
+                            <h5 class="fw-bold">ayaan@example.com</h5>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-map-marker-alt cyan-text me-3 fs-4"></i>
+                        <div>
+                            <p class="mb-0 text-secondary">Location</p>
+                            <h5 class="fw-bold">Karachi, Pakistan</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <form class="contact-form">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control custom-input" placeholder="Full Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control custom-input" placeholder="Email Address">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control custom-input" placeholder="Subject">
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control custom-input" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn-submit">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer-section">
+    <div class="container text-center text-md-start">
+        <div class="row pt-5 pb-4">
+            <div class="col-md-4 mb-4 mb-md-0">
+                <h2 class="cyan-text fw-bold">Ayaan.</h2>
+                <p class="text-secondary">Building the future of the web, one pixel at a time. Let's create something amazing together.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4 mb-md-0 ps-md-5">
+                <h5 class="text-white mb-3">Quick Links</h5>
+                <ul class="list-unstyled footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="footer-img-box">
+                     <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=200" alt="Tech Background" class="img-fluid rounded-circle mb-3 footer-glow-img">
+                    <p class="text-white small italic">"Design is not just what it looks like, it's how it works."</p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="row pb-3">
+            <div class="col text-center">
+                <p class="mb-0 text-secondary">&copy; 2026 <span class="cyan-text">Ayaan</span> | All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
