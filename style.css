@@ -516,3 +516,22 @@ body {
     50% { box-shadow: 0 0 20px #00ffff; }
     100% { box-shadow: 0 0 5px #00ffff; }
 }
+/* Initial State: Section pehle se chupa hua aur thora neeche hoga */
+.reveal {
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 1.2s ease;
+}
+
+/* Active State: Jab scroll karke wahan pohnchein ge, to JS ye class add kar degi */
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Sticky Header: Jab scroll karein to header ka background change ho jaye */
+header.sticky {
+    background: rgba(8, 27, 41, 0.95) !important;
+    box-shadow: 0 5px 20px rgba(0, 255, 255, 0.2);
+}
